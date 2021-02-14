@@ -1,5 +1,5 @@
 # UppGoogleTest
-UppGoogleTest is a distributed source nest for [U++](https://www.ultimatepp.org/) platform that wraps [GoogleTest](https://github.com/google/googletest) a popular C++ testing framework. The package can be directly downloade using UppHub.
+UppGoogleTest is a distributed source nest for [U++](https://www.ultimatepp.org/) platform that wraps [GoogleTest](https://github.com/google/googletest) a popular C++ unit testing framework. The package can be directly downloade using UppHub.
 
 UppGoogleTest provieds two following package:
 - **plugin/gtest** - the wrapepr for GoogleTest library.
