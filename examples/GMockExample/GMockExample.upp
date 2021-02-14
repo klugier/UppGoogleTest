@@ -1,0 +1,12 @@
+description "Google Mock in action\377";
+
+uses
+	plugin/gmock,
+	Core;
+
+file
+	GoogleMockExample.cpp;
+
+mainconfig
+	"" = "";
+

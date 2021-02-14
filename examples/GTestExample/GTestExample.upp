@@ -1,0 +1,16 @@
+description "Unit test package that shows how Google Test works with U++\377";
+
+uses
+	plugin/gtest,
+	Core;
+
+file
+	Init readonly separator,
+	main.cpp,
+	Tests readonly separator,
+	StringTest.cpp,
+	StringTest.h;
+
+mainconfig
+	"" = "";
+

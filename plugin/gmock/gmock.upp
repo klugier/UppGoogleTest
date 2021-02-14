@@ -1,0 +1,36 @@
+description "Google C++ mocking framework (Depends on Google Test) - Version 1.10.0\3770,128,128";
+
+uses
+	plugin/gtest;
+
+file
+	Sources readonly separator,
+	gmock.cc,
+	gmock-internal-utils.cc,
+	gmock-matchers.cc,
+	gmock-spec-builders.cc,
+	gmock-cardinalities.cc,
+	Include readonly separator,
+	gmock.h,
+	gmock-actions.h,
+	gmock-generated-actions.h,
+	gmock-matchers.h,
+	gmock-more-actions.h,
+	gmock-more-matchers.h,
+	gmock-nice-strict.h,
+	gmock-generated-function-mockers.h,
+	gmock-generated-matchers.h,
+	gmock-spec-builders.h,
+	gmock-cardinalities.h,
+	gmock-function-mocker.h,
+	"Include - Internal" readonly separator,
+	internal/gmock-pp.h,
+	internal/gmock-internal-utils.h,
+	internal/gmock-port.h,
+	"Include - Internal - Custom" readonly separator,
+	internal/custom/gmock-matchers.h,
+	internal/custom/gmock-port.h,
+	internal/custom/gmock-generated-actions.h,
+	Info readonly separator,
+	Copying;
+
