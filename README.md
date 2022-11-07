@@ -5,6 +5,8 @@ UppGoogleTest provieds two following package:
 - **plugin/gtest** - the wrapepr for GoogleTest library.
 - **plugin/gmock** - the wrapper for GoogleMock library.
 
+The current package version is basing on GoogleTest [v1.12.1](https://github.com/google/googletest/releases/tag/release-1.12.1).
+
 ## Examples
 To simplify the example, let's test basic String from Upp Core package:
 ```cpp
@@ -25,3 +27,8 @@ TEST_APP_MAIN {}
 ```
 
 More examples can be found under examples directory.
+
+## TheIDE integration
+UppGoogleTest provides macros that extends TheIDE capabilities. Directly from Macro -> GoogleTest menu you can execute following operations:
+- **Launch all test** - launches all available tests in the project (CTRL+R)
+- **Launch test** - launches test at code editors cursor line (CTRL+E)
